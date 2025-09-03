@@ -1,0 +1,9 @@
+JSON Web Tokens (JWT) are used for authentication in MERN apps.  
+Workflow:
+1. User logs in → server generates a token.
+2. Token is sent to the client and stored (localStorage/cookie).
+3. Client sends token in headers for protected routes.
+4. Server verifies token before granting access.
+Example in Express:
+const jwt = require("jsonwebtoken");
+jwt.sign({ id: user._id }, "secretKey", { expiresIn: "1h" });

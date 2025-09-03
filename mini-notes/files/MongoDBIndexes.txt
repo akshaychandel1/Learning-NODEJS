@@ -1,0 +1,9 @@
+Indexes in MongoDB improve the speed of queries.  
+Types of indexes:
+- Single field index
+- Compound index
+- Text index
+- Geospatial index
+Example:
+db.users.createIndex({ email: 1 });
+Without indexes, queries can become very slow on large datasets.

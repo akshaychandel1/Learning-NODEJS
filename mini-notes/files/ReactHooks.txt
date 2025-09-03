@@ -1,0 +1,8 @@
+React Hooks allow using state and lifecycle features in functional components.  
+Important hooks:
+- useState → manage state
+- useEffect → side effects
+- useContext → context API
+- useReducer → complex state logic
+- useRef → DOM references
+Hooks replace most class component use cases.

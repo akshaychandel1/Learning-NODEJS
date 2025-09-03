@@ -1,0 +1,3 @@
+The Node.js Event Loop is the core mechanism that handles asynchronous operations.  
+It works on a single thread but uses callbacks, promises, and async/await to manage concurrency.  
+Phases: timers, I/O callbacks, idle/prepare, poll, check, and close callbacks.
