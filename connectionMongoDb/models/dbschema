@@ -1,0 +1,14 @@
+const {Schema, model} = require("mongoose");
+const mySchema = new Schema({
+    name : {
+        type: String,
+        required: true
+    },
+    age  : {
+        type: Number,
+        required: true,
+    },
+})
+
+const userModel = model('user', mySchema)
+module.exports = userModel;
